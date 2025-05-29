@@ -109,19 +109,19 @@ var (
 // For different const size configuration
 const (
 	// max allowed databases
-	MaxDatabases int = 10240
+	MaxDatabases int = 102400
 
 	// max key size
-	MaxKeySize int = 1024
+	MaxKeySize int = 10240
 
 	// max hash field size
-	MaxHashFieldSize int = 1024
+	MaxHashFieldSize int = 10240
 
 	// max zset member size
-	MaxZSetMemberSize int = 1024
+	MaxZSetMemberSize int = 10240
 
 	// max set member size
-	MaxSetMemberSize int = 1024
+	MaxSetMemberSize int = 10240
 
 	// max value size
 	MaxValueSize int = 1024 * 1024 * 1024
